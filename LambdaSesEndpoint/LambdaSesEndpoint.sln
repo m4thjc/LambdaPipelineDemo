@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaSesEndpoint", "src\LambdaSesEndpoint\LambdaSesEndpoint.csproj", "{D953A81D-D49E-40EA-A89D-14B126A3C3C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaSesEndpoint.Tests", "test\LambdaSesEndpoint.Tests\LambdaSesEndpoint.Tests.csproj", "{F5F6ACA1-5DAB-4901-A90B-77D5A930D469}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D953A81D-D49E-40EA-A89D-14B126A3C3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D953A81D-D49E-40EA-A89D-14B126A3C3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D953A81D-D49E-40EA-A89D-14B126A3C3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D953A81D-D49E-40EA-A89D-14B126A3C3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F6ACA1-5DAB-4901-A90B-77D5A930D469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F6ACA1-5DAB-4901-A90B-77D5A930D469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F6ACA1-5DAB-4901-A90B-77D5A930D469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F6ACA1-5DAB-4901-A90B-77D5A930D469}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79DA5F41-35F7-4B3B-8B3E-5F8E1B3451B3}
+	EndGlobalSection
+EndGlobal
